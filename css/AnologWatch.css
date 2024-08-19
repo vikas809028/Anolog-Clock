@@ -1,0 +1,64 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{   
+    margin:10px auto;
+    height:300px;
+    width:300px;
+    border :1px solid black;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.363),rgba(255, 0, 0, 0.418)),url("../img/watch.jpg");
+    background-size: cover;
+    border-radius:50%;
+    box-shadow: 0px 0px 30px 10px inset black;
+    position: relative;
+    
+}
+
+.hr,.min,.sec,.point,.digital{
+    position:absolute;
+    transform-origin: bottom;
+    
+}
+.hr{
+    height:100px;
+    width:4px;
+    background-color: red;
+    top:51px;
+    left:149.5px;
+
+}
+.min{
+    height:120px;
+    width:3px;
+    background-color: blue;
+    top:31px;
+    left:149.5px;
+    
+}
+.sec{
+    height:130px;
+    width:2px;
+    background-color: rgb(30, 32, 31);
+    left:150px;
+    top:21px;
+}
+.point{
+    height: 5px;
+    width:5px;
+    background-color: rgb(125, 11, 11);
+    border-radius: 50%;
+    top:147.5px;
+    left:148.5px;
+
+}
+.digital{
+    border:1px solid red;
+    width: 110px;
+    height: 28px;
+    left:90px;
+    top:180px;
+    padding:5px;
+    font-size: 20px;
+}
